@@ -1,0 +1,285 @@
+.section {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 120px 20px;
+}
+
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  color: var(--text-main);
+  letter-spacing: -0.02em;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+/* Profile Card */
+.profileCard {
+  position: relative;
+  background: rgba(12, 12, 12, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 40px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.6);
+  backdrop-filter: blur(20px);
+}
+
+.profileCard:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.noiseOverlay {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 1;
+}
+
+.techGrid {
+  position: absolute;
+  top: 0; right: 0; width: 50%; height: 100%;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 20px 20px;
+  mask-image: radial-gradient(circle at 100% 50%, black 10%, transparent 80%);
+  -webkit-mask-image: radial-gradient(circle at 100% 50%, black 10%, transparent 80%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* Card Content */
+.cardContent {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  gap: 30px;
+}
+
+.leftColumn {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex: 1;
+  min-width: 0;
+}
+
+.avatarWrapper {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+  flex-shrink: 0;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #000;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.name {
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.username {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.username:hover {
+  color: #fff;
+}
+
+.bio {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  max-width: 100%;
+  margin-top: 6px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Right Column (Graph) */
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+  padding-left: 40px;
+  flex-shrink: 0;
+}
+
+.graphHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.graphTitle {
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+}
+
+.graphSubtitle {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: var(--font-mono);
+}
+
+.graphWrapper {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.graphGrid {
+  display: flex;
+  gap: 3px;
+  direction: ltr;
+}
+
+.graphColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.graphSquare {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* GitHub Green scaling for activity */
+.level0 { background: rgba(255, 255, 255, 0.03); }
+.level1 { background: #0e4429; }
+.level2 { background: #006d32; }
+.level3 { background: #26a641; }
+.level4 { background: #39d353; box-shadow: 0 0 8px rgba(57, 211, 83, 0.4); }
+
+.actionBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.actionBtn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 850px) {
+  .profileCard {
+    padding: 30px 20px;
+  }
+  .cardContent {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+  }
+  
+  .leftColumn {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .username {
+    justify-content: center;
+  }
+  
+  .bio {
+    max-width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .rightColumn {
+    align-items: stretch;
+    width: 100%;
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-left: 0;
+    padding-top: 30px;
+    gap: 24px;
+  }
+  
+  .graphHeader {
+    align-items: center;
+  }
+  
+  .graphWrapper {
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Hide excess weeks on tiny screens */
+  }
+
+  .actionBtn {
+    width: 100%;
+    justify-content: center;
+  }
+}

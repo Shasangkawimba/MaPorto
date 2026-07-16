@@ -1,0 +1,11 @@
+- generic [ref=f3e5]:
+  - generic [ref=f3e7]:
+    - heading "Welcome to Framer" [level=1] [ref=f3e8]
+    - heading "The web design agent" [level=2] [ref=f3e9]
+  - generic [ref=f3e11]:
+    - generic [ref=f3e12]:
+      - generic [ref=f3e13]:
+        - button "Continue with Google" [ref=f3e15] [cursor=pointer]
+        - generic [ref=f3e17]: OR
+      - textbox "Enter your work email…" [active] [ref=f3e20]
+    - button "Continue" [ref=f3e22] [cursor=pointer]

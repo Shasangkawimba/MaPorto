@@ -1,0 +1,50 @@
+{
+  "works": [
+    {
+      "title": "Pasar Antar",
+      "slug": "pasar-antar",
+      "tag": "Laravel • React • Inertia.js • Redis • PostgreSQL",
+      "desc": "A real-time traditional market delivery platform. Engineered a 3-party state machine connecting buyers, shoppers, and admins with live WebSocket updates and background order aggregation.",
+      "githubUrl": "https://github.com/Shasangkawimba/PasarAntar",
+      "liveUrl": "#"
+    },
+    {
+      "title": "Singkat Saja",
+      "slug": "singkat-saja",
+      "tag": "Laravel • React • Inertia.js • Redis • PostgreSQL",
+      "desc": "High-performance URL shortener and redirect engine. Features custom aliases, expiration constraints, and a built-in analytics dashboard to track click engagement and traffic metrics.",
+      "githubUrl": "https://github.com/Shasangkawimba/SingkatSaja",
+      "liveUrl": "#"
+    },
+    {
+      "title": "Vendura",
+      "slug": "vendura",
+      "tag": "Laravel • React • Inertia.js • Redis • PostgreSQL",
+      "desc": "Enterprise compliance and contract management system. Implemented multi-tier approval workflows, document versioning, and automated background jobs for expiration tracking.",
+      "githubUrl": "https://github.com/Shasangkawimba/vendura",
+      "liveUrl": "#"
+    },
+    {
+      "title": "StikIn",
+      "slug": "stikin",
+      "tag": "Laravel • Blade • Alpine.js • WA Gateway • MySQL",
+      "desc": "PlayStation rental booking system built to handle high-concurrency race conditions. Utilizes strict database row-locking to guarantee zero double-bookings alongside real-time WhatsApp alerts.",
+      "githubUrl": "https://github.com/Shasangkawimba/StikIn",
+      "liveUrl": "#"
+    }
+  ],
+  "services": [
+    {
+      "slug": "web-design",
+      "title": "Web Design",
+      "desc": "Crafting pixel perfect experiences"
+    }
+  ],
+  "blogs": [
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "date": "2026-07-11"
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e7]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: ./
+        - paragraph [ref=e11]: HOME
+      - link [ref=e14] [cursor=pointer]:
+        - /url: ./work
+        - paragraph [ref=e16]: WORKS
+      - link [ref=e18] [cursor=pointer]:
+        - /url: ./
+      - link [ref=e24] [cursor=pointer]:
+        - /url: ./about
+        - paragraph [ref=e26]: ABOUT
+      - link [ref=e29] [cursor=pointer]:
+        - /url: ./blogs
+        - paragraph [ref=e31]: BLOGS
+    - generic [ref=e32]:
+      - generic [ref=e34]:
+        - generic [ref=e55]:
+          - heading "Building" [level=1] [ref=e59]
+          - heading "Identity" [level=1] [ref=e63]
+          - heading "Beyond" [level=1] [ref=e68]
+        - generic [ref=e69]:
+          - generic [ref=e72]:
+            - paragraph [ref=e74]: (creative studio)
+            - heading "A creative partner for brands that strive to stand out." [level=2] [ref=e78]
+          - generic [ref=e83] [cursor=pointer]:
+            - paragraph [ref=e85]: Start Project
+            - paragraph [ref=e87]: Start Project
+        - list [ref=e94]:
+          - listitem [ref=e95]
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - paragraph [ref=e114]: (creative studio)
+          - generic [ref=e115]:
+            - paragraph [ref=e117]: From bold identities to modern digital products, we create meaningful design to elevate brands, connect with audiences, and leave a lasting impression.
+            - generic [ref=e121] [cursor=pointer]:
+              - paragraph [ref=e123]: GET STARTED
+              - paragraph [ref=e125]: GET STARTED
+        - generic [ref=e128]:
+          - link "Brand Identity Logo design visual guidelines assets" [ref=e131] [cursor=pointer]:
+            - /url: ./services/brand-identity
+            - list [ref=e156]:
+              - listitem [ref=e157]
+            - generic [ref=e167]:
+              - heading "Brand Identity" [level=2] [ref=e169]
+              - generic [ref=e170]:
+                - paragraph [ref=e173]: Logo design
+                - paragraph [ref=e176]: visual
+                - paragraph [ref=e179]: guidelines
+                - paragraph [ref=e182]: assets
+          - link "Web Design MARKETING LANDING INTERACTIVE RESPONSES" [ref=e185] [cursor=pointer]:
+            - /url: ./services/web-design
+            - list [ref=e215]:
+              - listitem [ref=e216]
+            - generic [ref=e226]:
+              - heading "Web Design" [level=2] [ref=e228]
+              - generic [ref=e229]:
+                - paragraph [ref=e232]: MARKETING
+                - paragraph [ref=e235]: LANDING
+                - paragraph [ref=e238]: INTERACTIVE
+                - paragraph [ref=e241]: RESPONSES
+          - link "Motion & 3D NOTION UI ANIMATION 3D VISUALS PRODUCT" [ref=e244] [cursor=pointer]:
+            - /url: ./services/motion-and-3d
+            - list [ref=e288]:
+              - listitem [ref=e289]
+            - generic [ref=e299]:
+              - heading "Motion & 3D" [level=2] [ref=e301]
+              - generic [ref=e302]:
+                - paragraph [ref=e305]: NOTION
+                - paragraph [ref=e308]: UI ANIMATION
+                - paragraph [ref=e311]: 3D VISUALS
+                - paragraph [ref=e314]: PRODUCT
+          - link "Creative Direction ART DIRECTION CAMPAIGN STORYTELLING CONCEPTS" [ref=e317] [cursor=pointer]:
+            - /url: ./services/creative-direction
+            - list [ref=e348]:
+              - listitem [ref=e349]
+            - generic [ref=e359]:
+              - heading "Creative Direction" [level=2] [ref=e361]
+              - generic [ref=e362]:
+                - paragraph [ref=e365]: ART DIRECTION
+                - paragraph [ref=e368]: CAMPAIGN
+                - paragraph [ref=e371]: STORYTELLING
+                - paragraph [ref=e374]: CONCEPTS
+      - generic [ref=e376]:
+        - generic [ref=e378]:
+          - paragraph [ref=e381]: CREATIVE STUDIO
+          - paragraph [ref=e390]: (the works)
+          - generic [ref=e392]:
+            - paragraph [ref=e394]: SELECTED WORKS
+            - paragraph [ref=e396]: "2026"
+        - generic [ref=e397]:
+          - generic [ref=e405]:
+            - heading "We’ve" [level=2] [ref=e409]
+            - heading "Created" [level=2] [ref=e412]
+            - generic [ref=e413]:
+              - paragraph [ref=e416]: 25+
+              - heading "Projects" [level=2] [ref=e418]
+          - list [ref=e427]:
+            - listitem [ref=e428]:
+              - paragraph [ref=e430]: Brand Identity
+            - listitem [ref=e431]:
+              - paragraph [ref=e433]: Web Design
+            - listitem [ref=e434]:
+              - paragraph [ref=e436]: UI/UX Design
+            - listitem [ref=e437]:
+              - paragraph [ref=e439]: Motion Design
+            - listitem [ref=e440]:
+              - paragraph [ref=e442]: Creative Dev
+            - listitem [ref=e443]:
+              - paragraph [ref=e445]: Visual Systems
+          - generic [ref=e446]:
+            - generic [ref=e472]:
+              - generic [ref=e473]:
+                - generic [ref=e474]:
+                  - heading "Novox" [level=2] [ref=e475]
+                  - heading "Brand Revamp" [level=2] [ref=e476]
+                - paragraph [ref=e478]: (2026)
+              - generic [ref=e480]:
+                - paragraph [ref=e482]: We crafted a complete visual identity and digital experience for a modern brand, combining strategy, creativity, and design to build a stronger presence.
+                - generic [ref=e483]:
+                  - paragraph [ref=e486]: Marketing
+                  - paragraph [ref=e489]: Motion
+                  - paragraph [ref=e492]: UI Design
+            - generic [ref=e493]:
+              - list [ref=e495]:
+                - listitem [ref=e496]
+              - list [ref=e506]:
+                - listitem [ref=e507]
+      - generic [ref=e516]:
+        - generic [ref=e517]:
+          - paragraph [ref=e526]: (the process)
+          - generic [ref=e531] [cursor=pointer]:
+            - paragraph [ref=e533]: GET STARTED
+            - paragraph [ref=e535]: GET STARTED
+        - generic [ref=e542]:
+          - generic [ref=e544]:
+            - generic [ref=e545]:
+              - paragraph [ref=e547]: Discover
+              - paragraph [ref=e549]: Research & Strategy
+            - generic [ref=e551]:
+              - paragraph [ref=e554]: "2"
+              - paragraph [ref=e557]: Process
+              - paragraph [ref=e560]: Goals
+          - generic [ref=e562]:
+            - generic [ref=e563]:
+              - paragraph [ref=e565]: Define
+              - paragraph [ref=e567]: Positioning & Direction
+            - generic [ref=e568]:
+              - paragraph [ref=e571]: "1"
+              - paragraph [ref=e574]: Strategy
+          - generic [ref=e577]:
+            - generic [ref=e578]:
+              - paragraph [ref=e580]: Create
+              - paragraph [ref=e582]: Design & Execution
+            - generic [ref=e584]:
+              - paragraph [ref=e587]: "2"
+              - paragraph [ref=e590]: Tags
+              - paragraph [ref=e593]: Review
+        - generic [ref=e601]:
+          - generic [ref=e602]:
+            - heading "A Thoughtful Process." [level=3] [ref=e604]
+            - paragraph [ref=e606]: We combine research, strategic thinking, and visual execution into a streamlined workflow that keeps every decision aligned with business goals.
+          - generic [ref=e607]:
+            - generic [ref=e608]:
+              - paragraph [ref=e611]: "01"
+              - paragraph [ref=e613]: Discovery Workshop
+            - generic [ref=e614]:
+              - paragraph [ref=e617]: "02"
+              - paragraph [ref=e619]: Research & Audit
+            - generic [ref=e620]:
+              - paragraph [ref=e623]: "03"
+              - paragraph [ref=e625]: Creative Direction
+            - generic [ref=e626]:
+              - paragraph [ref=e629]: "04"
+              - paragraph [ref=e631]: Design Exploration
+            - generic [ref=e632]:
+              - paragraph [ref=e635]: "05"
+              - paragraph [ref=e637]: Feedback & Iteration
+      - generic [ref=e638]:
+        - list [ref=e641]:
+          - listitem [ref=e642]
+        - paragraph [ref=e664]: (video showreel)
+        - list [ref=e667]:
+          - listitem [ref=e668]
+      - generic [ref=e678]:
+        - paragraph [ref=e702]: (the team)
+        - generic [ref=e708]:
+          - generic [ref=e709]:
+            - heading "Jordan Emir" [level=2] [ref=e717]
+            - generic [ref=e723]:
+              - paragraph [ref=e726]: Founder
+              - paragraph [ref=e729]: Creative Director
+          - paragraph [ref=e731]: Founder and creative lead guiding every project from first sketch to final pixel with an obsessive eye for craft.
+      - generic [ref=e732]:
+        - generic [ref=e733]:
+          - generic [ref=e734]:
+            - generic [ref=e735]:
+              - list [ref=e737]:
+                - listitem [ref=e738]
+              - list [ref=e748]:
+                - listitem [ref=e749]
+            - generic [ref=e760]:
+              - paragraph [ref=e763]: + BASED IN
+              - paragraph [ref=e766]: KYOTO
+          - generic [ref=e775]:
+            - heading "Go From" [level=2] [ref=e778]
+            - heading "The Small" [level=2] [ref=e784]
+            - generic [ref=e785]:
+              - heading "and" [level=2] [ref=e790]
+              - heading "Beyond" [level=2] [ref=e792]
+        - generic [ref=e804]:
+          - generic [ref=e805]:
+            - generic [ref=e819]:
+              - generic [ref=e820]:
+                - paragraph: 0+
+                - paragraph [ref=e821]: 0+
+              - paragraph [ref=e823]: Successful projects delivered across branding, digital products, and creative experiences.
+            - generic [ref=e824]:
+              - generic [ref=e828]:
+                - heading "Save time launching" [level=3] [ref=e829]
+                - heading "your brand" [level=3] [ref=e830]
+              - generic [ref=e831]:
+                - paragraph [ref=e840]: Other Agency
+                - generic [ref=e841]:
+                  - paragraph [ref=e847]: 1-2w
+                  - paragraph [ref=e853]: 4-6w
+          - generic [ref=e855]:
+            - generic [ref=e856]:
+              - paragraph [ref=e865]: (the process)
+              - paragraph [ref=e867]: Crafting bold digital identities where strategy, design, and motion work as one.
+              - paragraph [ref=e869]: © selected works 20-26
+            - generic [ref=e870]:
+              - generic [ref=e871]:
+                - paragraph [ref=e878]: wins
+                - generic [ref=e879]:
+                  - generic [ref=e881]:
+                    - paragraph: 0x
+                    - paragraph [ref=e882]: 0x
+                  - generic [ref=e883]:
+                    - paragraph [ref=e885]: EFFIENCY
+                    - paragraph [ref=e887]: "|"
+                    - paragraph [ref=e889]: ON AVERAGE PROJECT
+              - generic [ref=e890]:
+                - paragraph [ref=e893]: Our Clients
+                - list [ref=e895]:
+                  - listitem [ref=e896]
+                  - listitem [ref=e897]
+                  - listitem [ref=e898]
+                  - listitem [ref=e899]
+                  - listitem [ref=e900]
+                  - listitem [ref=e901]
+          - generic [ref=e902]:
+            - paragraph [ref=e911]: 2026 — Featured Studio
+            - heading "A creative partner for brands that choose clarity over noise." [level=2] [ref=e914]
+      - generic [ref=e919]:
+        - generic [ref=e921]:
+          - paragraph [ref=e931]: (pricing)
+          - heading "Pricing Model for Business" [level=2] [ref=e933]
+          - generic [ref=e938] [cursor=pointer]:
+            - paragraph [ref=e940]: GET STARTED
+            - paragraph [ref=e942]: GET STARTED
+        - generic [ref=e950]:
+          - generic [ref=e951]:
+            - paragraph [ref=e953]: Creative StudioServices
+            - generic [ref=e954]:
+              - paragraph [ref=e960] [cursor=pointer]: Starter
+              - paragraph [ref=e966] [cursor=pointer]: Growth
+              - paragraph [ref=e972] [cursor=pointer]: Partnership
+          - generic [ref=e974]:
+            - generic [ref=e975]:
+              - generic [ref=e976]:
+                - paragraph [ref=e979]: Starter
+                - paragraph [ref=e981]: Brand Identity
+              - generic [ref=e982]:
+                - paragraph [ref=e984]: $2,000
+                - paragraph [ref=e986]: /project
+            - generic [ref=e988]:
+              - paragraph [ref=e990]: Start with essential visual systems that elevate the brand to lead industry that can raise the goal fund
+              - generic [ref=e991]:
+                - paragraph [ref=e996]: Brand Strategy
+                - paragraph [ref=e1001]: Visual Identity
+                - paragraph [ref=e1006]: UI Design
+                - paragraph [ref=e1011]: UX Design
+                - paragraph [ref=e1016]: Motion Design
+                - paragraph [ref=e1021]: CMS Setup
+                - paragraph [ref=e1026]: SEO Basics
+      - generic [ref=e1027]:
+        - generic [ref=e1028]:
+          - generic [ref=e1031]:
+            - generic [ref=e1032]:
+              - paragraph [ref=e1041]: (testimonial)
+              - heading "Ethan Caldwell" [level=2] [ref=e1043]
+            - paragraph [ref=e1051]: Creative Director & Founder
+          - generic [ref=e1065]:
+            - generic [ref=e1066]:
+              - generic [ref=e1067]:
+                - paragraph [ref=e1069]: +62+ CLIENTS
+                - paragraph [ref=e1072]: WORLDWIDE
+              - generic [ref=e1077] [cursor=pointer]:
+                - paragraph [ref=e1079]: BECOME A MEMBER
+                - paragraph [ref=e1081]: BECOME A MEMBER
+            - heading "Minux turned a scattered idea into a clear creative direction—one that finally felt as distinctive as the work we wanted to put into the world." [level=2] [ref=e1091]
+        - list [ref=e1093]:
+          - listitem [ref=e1094]
+      - generic [ref=e1098]:
+        - generic [ref=e1099]:
+          - generic [ref=e1100]:
+            - paragraph [ref=e1109]: (the blog)
+            - link [ref=e1111] [cursor=pointer]:
+              - /url: ./blogs
+              - generic [ref=e1113]:
+                - paragraph [ref=e1115]: View all
+                - paragraph [ref=e1117]: View all
+          - generic [ref=e1123]:
+            - paragraph [ref=e1125]: "01"
+            - paragraph [ref=e1129]: "24"
+        - generic [ref=e1130]:
+          - link "10 July Better Device for Showcase" [ref=e1132] [cursor=pointer]:
+            - /url: ./blogs/better-device-for-showcase
+            - generic [ref=e1139]:
+              - generic [ref=e1140]:
+                - heading "10" [level=2] [ref=e1142]
+                - paragraph [ref=e1144]: July
+              - paragraph [ref=e1146]: Better Device for Showcase
+          - link "10 July Behind the Creative Process" [ref=e1148] [cursor=pointer]:
+            - /url: ./blogs/behind-the-creative-process
+            - generic [ref=e1155]:
+              - generic [ref=e1156]:
+                - heading "10" [level=2] [ref=e1158]
+                - paragraph [ref=e1160]: July
+              - paragraph [ref=e1162]: Behind the Creative Process
+          - link "10 July Building Better Brand Experiences" [ref=e1164] [cursor=pointer]:
+            - /url: ./blogs/building-better-brand-experiences
+            - generic [ref=e1171]:
+              - generic [ref=e1172]:
+                - heading "10" [level=2] [ref=e1174]
+                - paragraph [ref=e1176]: July
+              - paragraph [ref=e1178]: Building Better Brand Experiences
+          - link "10 July From Idea to the Launch" [ref=e1180] [cursor=pointer]:
+            - /url: ./blogs/from-idea-to-the-launch
+            - generic [ref=e1187]:
+              - generic [ref=e1188]:
+                - heading "10" [level=2] [ref=e1190]
+                - paragraph [ref=e1192]: July
+              - paragraph [ref=e1194]: From Idea to the Launch
+      - generic [ref=e1198]:
+        - generic [ref=e1199]:
+          - paragraph [ref=e1209]: (pricing)
+          - heading "The FAQs" [level=1] [ref=e1211]
+        - generic [ref=e1213]:
+          - generic [ref=e1214]:
+            - paragraph [ref=e1218]: Support
+            - generic [ref=e1222]:
+              - paragraph [ref=e1224]: Live Support Available
+              - generic [ref=e1228] [cursor=pointer]:
+                - paragraph [ref=e1230]: CONTACT US
+                - paragraph [ref=e1232]: CONTACT US
+          - generic [ref=e1239]:
+            - generic [ref=e1242] [cursor=pointer]:
+              - paragraph [ref=e1244]: How long does a branding project usually take?
+              - paragraph [ref=e1246]: Every branding project is different, but most take between 3–8 weeks depending on the scope. A visual identity typically requires less time, while a complete brand system—including strategy, messaging, and guidelines—may take longer. We define the timeline together during discovery and keep you updated throughout every stage of the project.
+            - paragraph [ref=e1253] [cursor=pointer]: What is included in your website design service?
+            - paragraph [ref=e1260] [cursor=pointer]: Can you redesign an existing brand or website?
+            - paragraph [ref=e1267] [cursor=pointer]: Do you also develop the website after design?
+            - paragraph [ref=e1274] [cursor=pointer]: How involved will we be during the process?
+      - generic [ref=e1280]:
+        - generic [ref=e1281]:
+          - paragraph [ref=e1283]: social+
+          - generic [ref=e1284]:
+            - link [ref=e1285] [cursor=pointer]:
+              - /url: https://instagram.com
+            - link [ref=e1287] [cursor=pointer]:
+              - /url: https://facebook.com
+            - link [ref=e1289] [cursor=pointer]:
+              - /url: https://x.com
+        - generic [ref=e1308]:
+          - generic [ref=e1309]:
+            - heading "Start" [level=1] [ref=e1312]
+            - heading "Your Next" [level=1] [ref=e1315]
+            - heading "Project" [level=1] [ref=e1318]
+          - generic [ref=e1319]:
+            - generic [ref=e1320]:
+              - paragraph [ref=e1322]: (get started for now)
+              - heading "We offer special deal for new clients and new project" [level=2] [ref=e1326]
+            - generic [ref=e1331] [cursor=pointer]:
+              - paragraph [ref=e1333]: Start Project
+              - paragraph [ref=e1335]: Start Project
+        - list [ref=e1342]:
+          - listitem [ref=e1343]
+    - generic [ref=e1356]:
+      - generic [ref=e1357]:
+        - paragraph [ref=e1361]: Crafting Perfect Pixel Digital
+        - paragraph [ref=e1363]: From bold identities to modern digital products, we create meaningful design to elevate brands, connect with audiences, and leave a lasting impression.
+        - paragraph [ref=e1365]: "@2026 Minux. All rights reserved."
+      - generic [ref=e1366]:
+        - generic [ref=e1367]:
+          - paragraph [ref=e1369]: Menu
+          - generic [ref=e1370]:
+            - paragraph [ref=e1372]:
+              - link "Home" [ref=e1373] [cursor=pointer]:
+                - /url: ./
+            - paragraph [ref=e1375]:
+              - link "About" [ref=e1376] [cursor=pointer]:
+                - /url: ./about
+            - paragraph [ref=e1378]:
+              - link "Features" [ref=e1379] [cursor=pointer]:
+                - /url: ./#features
+            - paragraph [ref=e1381]:
+              - link "Blogs" [ref=e1382] [cursor=pointer]:
+                - /url: ./blogs
+            - paragraph [ref=e1384]:
+              - link "Services" [ref=e1385] [cursor=pointer]:
+                - /url: ./services
+        - generic [ref=e1386]:
+          - paragraph [ref=e1388]: Utility
+          - generic [ref=e1389]:
+            - paragraph [ref=e1391]: "404"
+            - paragraph [ref=e1393]:
+              - link "Pricing" [ref=e1394] [cursor=pointer]:
+                - /url: ./pricing
+        - generic [ref=e1395]:
+          - paragraph [ref=e1397]: Social
+          - generic [ref=e1398]:
+            - paragraph [ref=e1400]:
+              - link "Linkedin" [ref=e1401] [cursor=pointer]:
+                - /url: https://www.linkedin.com
+            - paragraph [ref=e1403]:
+              - link "Dribbble" [ref=e1404] [cursor=pointer]:
+                - /url: https://www.dribbble.com
+            - paragraph [ref=e1406]:
+              - link "Behance" [ref=e1407] [cursor=pointer]:
+                - /url: https://www.behance.com
+    - link "Get this template" [ref=e1416] [cursor=pointer]:
+      - /url: https://www.framer.com/community/marketplace/templates/minux/
+      - paragraph [ref=e1424]: Get this template
+  - generic:
+    - link "Create a free website with Framer, the website builder loved by startups, designers and agencies.":
+      - /url: https://www.framer.com
+      - paragraph [ref=e1434] [cursor=pointer]: Create a free website with Framer, the website builder loved by startups, designers and agencies.

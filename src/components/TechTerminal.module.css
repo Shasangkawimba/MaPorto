@@ -1,0 +1,178 @@
+.section {
+  padding: 20px 20px 120px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: -0.03em;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.terminalContainer {
+  width: 100%;
+  max-width: 900px;
+  background: #0a0a0a;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  font-family: var(--font-mono);
+}
+
+.terminalHeader {
+  display: flex;
+  align-items: center;
+  padding: 16px 20px;
+  background: #141414;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+}
+
+.dots {
+  display: flex;
+  gap: 8px;
+  position: absolute;
+}
+
+.dots span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.dotRed { background: #ff5f56; }
+.dotYellow { background: #ffbd2e; }
+.dotGreen { background: #27c93f; }
+
+.terminalTitle {
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+
+.terminalBody {
+  padding: 40px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.command {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.prompt {
+  color: #27c93f;
+  font-weight: bold;
+}
+
+.output {
+  margin-top: 12px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sysInfo {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  width: 100%;
+}
+
+.asciiArt {
+  color: #7b61ff;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.asciiArt pre {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.specs {
+  width: 100%;
+  min-width: 0;
+}
+
+.specs p {
+  margin: 8px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.key {
+  color: #ffbd2e;
+  font-weight: bold;
+  display: inline-block;
+  min-width: 90px;
+}
+
+.greenText {
+  color: #27c93f;
+  margin: 4px 0;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  height: 20px;
+  background: #fff;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 10px 16px 80px 16px;
+  }
+  .terminalBody {
+    padding: 24px 16px;
+    font-size: 0.85rem;
+  }
+  .sysInfo {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .asciiArt {
+    display: none;
+  }
+  .output {
+    padding-left: 10px;
+  }
+  .specs p {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .key {
+    min-width: auto;
+  }
+}

@@ -1,0 +1,46 @@
+.marqueeSection {
+  width: 100%;
+  padding: 30px 0;
+  overflow: hidden;
+  background: #111; /* Slightly lighter than main bg to stand out */
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transform: rotate(-1.5deg) scale(1.05);
+  margin: 80px 0;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+  position: relative;
+  z-index: 10;
+}
+
+.trackWrapper {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.track {
+  display: flex;
+  width: fit-content;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-right: 40px;
+}
+
+.content span {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-family: var(--font-mono);
+  font-weight: 200;
+  letter-spacing: -0.04em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.content .star {
+  color: #333;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+}

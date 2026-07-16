@@ -1,0 +1,51 @@
+.siteWrapper {
+  position: relative;
+  z-index: 10;
+  background: transparent;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.8);
+}
+
+.mainContent {
+  padding: 0 5vw;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.footerReveal {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  background: #000;
+}
+
+.section {
+  padding: 100px 0 40px 0;
+}
+
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.sectionTitle {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 400;
+  color: var(--text-main);
+  text-transform: capitalize;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

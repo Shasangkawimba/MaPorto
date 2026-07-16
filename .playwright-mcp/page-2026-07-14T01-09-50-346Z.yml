@@ -1,0 +1,250 @@
+- generic [active] [ref=f13e1]:
+  - navigation:
+    - generic [ref=f13e2]:
+      - generic [ref=f13e3]:
+        - link "HOME" [ref=f13e4]:
+          - /url: "#home"
+        - link "ABOUT" [ref=f13e9]:
+          - /url: "#about"
+        - link "SKILLS" [ref=f13e14]:
+          - /url: "#skills"
+      - generic [ref=f13e22]:
+        - link "WORKS" [ref=f13e23]:
+          - /url: "#projects"
+        - link "GITHUB" [ref=f13e28]:
+          - /url: "#activity"
+        - link "HELLO" [ref=f13e34]:
+          - /url: "#contact"
+  - generic [ref=f13e38]:
+    - generic [ref=f13e40]:
+      - heading "Building Identity Beyond" [level=1] [ref=f13e41]:
+        - generic [ref=f13e42]: Building
+        - generic [ref=f13e43]: Identity
+        - generic [ref=f13e44]: Beyond
+      - generic [ref=f13e45]:
+        - generic [ref=f13e46]:
+          - generic [ref=f13e47]: <
+          - text: Software Engineer
+          - generic [ref=f13e48]: />
+        - paragraph [ref=f13e49]: A creative partner for brands that strive to stand out.
+      - button [ref=f13e52]
+    - generic [ref=f13e59]:
+      - generic [ref=f13e60]:
+        - generic [ref=f13e61]: FRONTEND ENGINEERING
+        - generic [ref=f13e62]: ✦
+        - generic [ref=f13e63]: BACKEND SYSTEMS
+        - generic [ref=f13e64]: ✦
+        - generic [ref=f13e65]: UI/UX DESIGN
+        - generic [ref=f13e66]: ✦
+        - generic [ref=f13e67]: CLOUD ARCHITECTURE
+        - generic [ref=f13e68]: ✦
+      - generic [ref=f13e69]:
+        - generic [ref=f13e70]: FRONTEND ENGINEERING
+        - generic [ref=f13e71]: ✦
+        - generic [ref=f13e72]: BACKEND SYSTEMS
+        - generic [ref=f13e73]: ✦
+        - generic [ref=f13e74]: UI/UX DESIGN
+        - generic [ref=f13e75]: ✦
+        - generic [ref=f13e76]: CLOUD ARCHITECTURE
+        - generic [ref=f13e77]: ✦
+    - main [ref=f13e78]:
+      - generic [ref=f13e80]:
+        - generic [ref=f13e81]:
+          - generic [ref=f13e82]: About Me
+          - heading "Crafting Digital Experiences" [level=2] [ref=f13e85]: Crafting DigitalExperiences
+          - paragraph [ref=f13e86]: I bridge the gap between design and engineering. By combining technical expertise with a sharp eye for aesthetics, I build applications that don't just function flawlessly—they look amazing doing it.
+        - generic [ref=f13e87]:
+          - generic [ref=f13e88]: john_doe_profile.js
+          - generic [ref=f13e95]:
+            - generic [ref=f13e96]:
+              - generic [ref=f13e97]: "1"
+              - generic [ref=f13e98]: "class SoftwareEngineer {"
+            - generic [ref=f13e99]:
+              - generic [ref=f13e100]: "2"
+              - generic [ref=f13e101]: "constructor() {"
+            - generic [ref=f13e102]:
+              - generic [ref=f13e103]: "3"
+              - generic [ref=f13e104]: this.name = 'John Doe';
+            - generic [ref=f13e105]:
+              - generic [ref=f13e106]: "4"
+              - generic [ref=f13e107]: this.role = 'Creative Developer';
+            - generic [ref=f13e108]:
+              - generic [ref=f13e109]: "5"
+              - generic [ref=f13e110]: this.skills = ['UI/UX', 'Frontend'];
+            - generic [ref=f13e111]:
+              - generic [ref=f13e112]: "6"
+              - generic [ref=f13e113]: "}"
+            - generic [ref=f13e114]: "7"
+            - generic [ref=f13e117]:
+              - generic [ref=f13e118]: "8"
+              - generic [ref=f13e119]: "async build(idea) {"
+            - generic [ref=f13e120]:
+              - generic [ref=f13e121]: "9"
+              - generic [ref=f13e122]: const design = await this.design(idea);
+            - generic [ref=f13e123]:
+              - generic [ref=f13e124]: "10"
+              - generic [ref=f13e125]: return this.code(design);
+            - generic [ref=f13e126]:
+              - generic [ref=f13e127]: "11"
+              - generic [ref=f13e128]: "}"
+            - generic [ref=f13e129]:
+              - generic [ref=f13e130]: "12"
+              - generic [ref=f13e131]: "}"
+      - generic [ref=f13e132]:
+        - generic [ref=f13e133]:
+          - generic [ref=f13e134]: Arsenal
+          - heading "What I Bring To The Table" [level=2] [ref=f13e137]
+        - generic [ref=f13e138]:
+          - generic [ref=f13e140]:
+            - heading "Frontend Engineering" [level=3] [ref=f13e145]
+            - paragraph [ref=f13e146]: Crafting highly interactive, animated, and responsive user interfaces that feel native.
+            - generic [ref=f13e147]:
+              - generic [ref=f13e148]:
+                - img "React" [ref=f13e149]
+                - generic [ref=f13e150]: React
+              - generic [ref=f13e151]:
+                - img "Next.js" [ref=f13e152]
+                - generic [ref=f13e153]: Next.js
+              - generic [ref=f13e154]:
+                - img "TypeScript" [ref=f13e155]
+                - generic [ref=f13e156]: TypeScript
+              - generic [ref=f13e157]:
+                - img "Tailwind" [ref=f13e158]
+                - generic [ref=f13e159]: Tailwind
+              - generic [ref=f13e160]:
+                - img "Framer" [ref=f13e161]
+                - generic [ref=f13e162]: Framer
+          - generic [ref=f13e164]:
+            - heading "Backend & Systems" [level=3] [ref=f13e170]
+            - paragraph [ref=f13e171]: Building scalable APIs, robust databases, and secure server logic for complex apps.
+            - generic [ref=f13e172]:
+              - generic [ref=f13e173]:
+                - img "Node.js" [ref=f13e174]
+                - generic [ref=f13e175]: Node.js
+              - generic [ref=f13e176]:
+                - img "Python" [ref=f13e177]
+                - generic [ref=f13e178]: Python
+              - generic [ref=f13e179]:
+                - img "PostgreSQL" [ref=f13e180]
+                - generic [ref=f13e181]: PostgreSQL
+              - generic [ref=f13e182]:
+                - img "GraphQL" [ref=f13e183]
+                - generic [ref=f13e184]: GraphQL
+              - generic [ref=f13e185]:
+                - img "Prisma" [ref=f13e186]
+                - generic [ref=f13e187]: Prisma
+          - generic [ref=f13e189]:
+            - heading "DevOps & Cloud" [level=3] [ref=f13e194]
+            - paragraph [ref=f13e195]: Deploying and maintaining resilient cloud infrastructure and automated CI/CD pipelines.
+            - generic [ref=f13e196]:
+              - generic [ref=f13e197]:
+                - img "Docker" [ref=f13e198]
+                - generic [ref=f13e199]: Docker
+              - generic [ref=f13e200]:
+                - img "AWS" [ref=f13e201]
+                - generic [ref=f13e202]: AWS
+              - generic [ref=f13e203]:
+                - img "Vercel" [ref=f13e204]
+                - generic [ref=f13e205]: Vercel
+              - generic [ref=f13e206]:
+                - img "Linux" [ref=f13e207]
+                - generic [ref=f13e208]: Linux
+              - generic [ref=f13e209]:
+                - img "Nginx" [ref=f13e210]
+                - generic [ref=f13e211]: Nginx
+          - generic [ref=f13e213]:
+            - heading "Architecture & Tools" [level=3] [ref=f13e218]
+            - paragraph [ref=f13e219]: Designing system architecture and managing professional, highly efficient workflows.
+            - generic [ref=f13e220]:
+              - generic [ref=f13e221]:
+                - img "Git" [ref=f13e222]
+                - generic [ref=f13e223]: Git
+              - generic [ref=f13e224]:
+                - img "GitHub" [ref=f13e225]
+                - generic [ref=f13e226]: GitHub
+              - generic [ref=f13e227]:
+                - img "Figma" [ref=f13e228]
+                - generic [ref=f13e229]: Figma
+              - generic [ref=f13e230]:
+                - img "Jest" [ref=f13e231]
+                - generic [ref=f13e232]: Jest
+              - generic [ref=f13e233]:
+                - img "Stripe" [ref=f13e234]
+                - generic [ref=f13e235]: Stripe
+      - generic [ref=f13e236]:
+        - generic [ref=f13e237]:
+          - generic [ref=f13e238]: Selected Works
+          - heading "Featured Projects" [level=2] [ref=f13e241]
+        - generic [ref=f13e242]:
+          - link "FinTech Dashboard React TypeScript Tailwind" [ref=f13e247]:
+            - /url: /work/fintech-dashboard
+            - generic [ref=f13e268]:
+              - heading "FinTech Dashboard" [level=3] [ref=f13e269]
+              - generic [ref=f13e270]:
+                - generic [ref=f13e271]: React
+                - generic [ref=f13e272]: TypeScript
+                - generic [ref=f13e273]: Tailwind
+          - link "E-Commerce API Node.js Express PostgreSQL" [ref=f13e278]:
+            - /url: /work/ecommerce-api
+            - generic [ref=f13e299]:
+              - heading "E-Commerce API" [level=3] [ref=f13e300]
+              - generic [ref=f13e301]:
+                - generic [ref=f13e302]: Node.js
+                - generic [ref=f13e303]: Express
+                - generic [ref=f13e304]: PostgreSQL
+          - link "AI Image Generator Next.js Python Stable Diffusion" [ref=f13e309]:
+            - /url: /work/ai-generator
+            - generic [ref=f13e330]:
+              - heading "AI Image Generator" [level=3] [ref=f13e331]
+              - generic [ref=f13e332]:
+                - generic [ref=f13e333]: Next.js
+                - generic [ref=f13e334]: Python
+                - generic [ref=f13e335]: Stable Diffusion
+          - link "Crypto Wallet App React Native Web3.js" [ref=f13e340]:
+            - /url: /work/crypto-wallet
+            - generic [ref=f13e361]:
+              - heading "Crypto Wallet App" [level=3] [ref=f13e362]
+              - generic [ref=f13e363]:
+                - generic [ref=f13e364]: React Native
+                - generic [ref=f13e365]: Web3.js
+      - generic [ref=f13e366]:
+        - generic [ref=f13e367]: Metrics
+        - heading "By the Numbers" [level=2] [ref=f13e370]
+        - generic [ref=f13e371]:
+          - generic [ref=f13e373]:
+            - generic [ref=f13e374]: 1.2M+
+            - generic [ref=f13e375]: Lines of Code Written
+          - generic [ref=f13e378]:
+            - generic [ref=f13e379]: 14+
+            - generic [ref=f13e380]: Products Shipped
+          - generic [ref=f13e382]:
+            - generic [ref=f13e383]: "5"
+            - generic [ref=f13e384]: Years Exp.
+          - generic [ref=f13e386]:
+            - generic [ref=f13e387]: "892"
+            - generic [ref=f13e388]: Contributions
+      - generic [ref=f13e389]:
+        - generic [ref=f13e390]: Activity
+        - generic [ref=f13e395]:
+          - heading "GitHub Contributions" [level=3] [ref=f13e396]
+          - text: 892 contributions in the last year
+  - contentinfo [ref=f13e815]:
+    - generic [ref=f13e817]:
+      - generic [ref=f13e819]:
+        - generic [ref=f13e820]: AVAILABLE FOR WORK • AVAILABLE FOR WORK •
+        - generic [ref=f13e821]: AVAILABLE FOR WORK • AVAILABLE FOR WORK •
+      - generic [ref=f13e822]:
+        - generic [ref=f13e823]:
+          - paragraph [ref=f13e824]: HAVE AN IDEA?
+          - heading "Let's Talk" [level=2] [ref=f13e825]
+        - generic [ref=f13e826]:
+          - paragraph [ref=f13e827]: I am currently open to new opportunities and exciting projects. Whether you have a question or just want to say hi, my inbox is always open!
+          - generic [ref=f13e828]:
+            - link [ref=f13e830]:
+              - /url: mailto:hello@example.com
+            - generic [ref=f13e835]:
+              - link "GitHub" [ref=f13e837]:
+                - /url: https://github.com
+              - link "LinkedIn" [ref=f13e839]:
+                - /url: https://linkedin.com
+  - button "Open Next.js Dev Tools" [ref=f13e845] [cursor=pointer]

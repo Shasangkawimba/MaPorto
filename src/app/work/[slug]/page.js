@@ -1,0 +1,1 @@
+export default function Page() { return (<div style={{paddingTop:'150px', textAlign:'center'}}><h1>work/[slug]</h1></div>); }
