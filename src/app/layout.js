@@ -23,8 +23,8 @@ const b612 = B612_Mono({
 });
 
 export const metadata = {
-  title: "John | Creative Studio",
-  description: "A creative partner for brands that strive to stand out.",
+  title: "Belvarchie | Backend Developer",
+  description: "Portfolio of Belvarchie, Backend Developer.",
 };
 
 export default function RootLayout({ children }) {

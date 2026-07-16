@@ -246,4 +246,8 @@
     flex-direction: column;
     gap: 20px;
   }
+  .glowBox {
+    animation: none;
+    filter: blur(40px);
+  }
 }

@@ -226,5 +226,22 @@
   .tag {
     font-size: 0.65rem;
     padding: 6px 12px;
+    backdrop-filter: none;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .noiseOverlay {
+    display: none;
+  }
+  .meshBackground {
+    animation: none;
+    background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.03) 0%, transparent 60%);
+  }
+  .card:hover {
+    transform: none;
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+  .card:hover .imageWrapper {
+    transform: none;
+    border-color: rgba(255, 255, 255, 0.1);
   }
 }
