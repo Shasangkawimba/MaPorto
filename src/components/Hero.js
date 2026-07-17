@@ -4,8 +4,11 @@ import styles from "./Hero.module.css";
 import { ArrowUpRight } from "lucide-react";
 import MagneticButton from "./MagneticButton";
 import ProfileCard from "./ProfileCard";
+import { useIsMobile } from "@/hooks/useIsMobile";
 
 export default function Hero() {
+  const isMobile = useIsMobile();
+  
   const textVariants = {
     hidden: { opacity: 0, y: 100, rotateX: -20 },
     visible: (i) => ({
@@ -85,7 +88,7 @@ export default function Hero() {
             contactText="Contact Me"
             avatarUrl="/Profile.png"
             showUserInfo={true}
-            enableTilt={true}
+            enableTilt={!isMobile}
             enableMobileTilt={false}
             onContactClick={() => {
               const contactSection = document.getElementById('contact');

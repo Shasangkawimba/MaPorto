@@ -22,7 +22,7 @@ export default function TechTerminal() {
             <span className={styles.dotYellow}></span>
             <span className={styles.dotGreen}></span>
           </div>
-          <div className={styles.terminalTitle}>guest@portfolio: ~</div>
+          <div className={styles.terminalTitle}>belvarchie_profile.js</div>
         </div>
 
         <div className={styles.terminalBody}>

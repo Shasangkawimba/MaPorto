@@ -3,8 +3,11 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Card from "./Card";
 import styles from "./ProjectStack.module.css";
+import { useIsMobile } from "@/hooks/useIsMobile";
 
 const CardWrapper = ({ work, index, total, progress }) => {
+  const isMobile = useIsMobile();
+
   // As the container scrolls, each card scales down and dims 
   // when the NEXT card starts sliding over it.
   const start = index / total;
@@ -17,7 +20,7 @@ const CardWrapper = ({ work, index, total, progress }) => {
   return (
     <div className={styles.stickyCard} style={{ zIndex: index }}>
       <motion.div 
-        style={{ scale, opacity, transformOrigin: "top center", width: '100%', height: '100%' }}
+        style={isMobile ? { width: '100%', height: '100%' } : { scale, opacity, transformOrigin: "top center", width: '100%', height: '100%' }}
         className={styles.cardInner}
       >
         <Card 

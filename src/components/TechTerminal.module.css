@@ -58,6 +58,10 @@
   color: rgba(255, 255, 255, 0.4);
   font-size: 0.85rem;
   letter-spacing: 0.05em;
+  padding: 0 60px; /* Prevents text from hitting absolute dots */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .terminalBody {

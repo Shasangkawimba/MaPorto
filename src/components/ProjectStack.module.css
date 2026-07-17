@@ -32,10 +32,11 @@
 
 @media (max-width: 768px) {
   .stickyCard {
-    top: 120px;
-    margin-bottom: 60vh;
+    position: relative; /* Remove sticky */
+    top: 0;
+    margin-bottom: 40px; /* Standard gap between cards */
   }
   .stackSpacer {
-    height: 60vh;
+    display: none; /* No spacer needed for normal list */
   }
 }
