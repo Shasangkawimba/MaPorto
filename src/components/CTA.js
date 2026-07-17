@@ -4,18 +4,28 @@ import styles from "./CTA.module.css";
 import Link from "next/link";
 import { ArrowUpRight, Mail } from "lucide-react";
 import MagneticButton from "./MagneticButton";
+import { useIsMobile } from "@/hooks/useIsMobile";
 
 export default function CTA() {
+  const isMobile = useIsMobile();
+
   return (
     <section className={styles.ctaSection}>
       
-      {/* Massive Scrolling Marquee Background */}
-      <div className={styles.marqueeWrapper}>
-        <div className={styles.marqueeTrack}>
-          <span>OPEN FOR COLLABORATION • OPEN FOR COLLABORATION • </span>
-          <span>OPEN FOR COLLABORATION • OPEN FOR COLLABORATION • </span>
+      {isMobile ? (
+        <div className={styles.mobileStaticMarqueeWrapper}>
+          <div className={styles.mobileStaticTrack}>
+            <span>OPEN FOR COLLABORATION</span>
+          </div>
         </div>
-      </div>
+      ) : (
+        <div className={styles.marqueeWrapper}>
+          <div className={styles.marqueeTrack}>
+            <span>OPEN FOR COLLABORATION • OPEN FOR COLLABORATION • </span>
+            <span>OPEN FOR COLLABORATION • OPEN FOR COLLABORATION • </span>
+          </div>
+        </div>
+      )}
 
       <motion.div 
         className={styles.container}

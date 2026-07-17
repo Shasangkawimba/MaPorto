@@ -44,3 +44,54 @@
   color: #333;
   font-size: clamp(2rem, 4vw, 3.5rem);
 }
+
+@keyframes scrollCSSMarquee {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  animation: scrollCSSMarquee 20s linear infinite;
+  will-change: transform;
+}
+
+/* Static Mobile Grid (Glass Cards) */
+.mobileGridSection {
+  padding: 60px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mobileGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.glassCard {
+  background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.01) 25%, transparent 25%, transparent 100%), radial-gradient(circle at center, #111 0%, #040404 100%);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-radius: 20px;
+  padding: 30px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+.glassCard span {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 1.3;
+}

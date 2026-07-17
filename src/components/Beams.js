@@ -51,11 +51,16 @@ function extendMaterial(BaseMaterial, cfg) {
   return mat;
 }
 
-const CanvasWrapper = ({ children }) => (
-  <Canvas dpr={[1, 2]} frameloop="always" className="beams-container">
-    {children}
-  </Canvas>
-);
+import { useIsMobile } from '@/hooks/useIsMobile';
+
+const CanvasWrapper = ({ children }) => {
+  const isMobile = useIsMobile();
+  return (
+    <Canvas dpr={[1, 2]} frameloop={isMobile ? "demand" : "always"} className="beams-container">
+      {children}
+    </Canvas>
+  );
+};
 
 const hexToNormalizedRGB = hex => {
   const clean = hex.replace('#', '');

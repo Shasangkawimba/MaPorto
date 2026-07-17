@@ -1,30 +1,18 @@
 "use client";
-import { useEffect, useRef } from "react";
-import gsap from "gsap";
 import styles from "./Marquee.module.css";
+import { useIsMobile } from "@/hooks/useIsMobile";
 
 export default function Marquee() {
-  const trackRef = useRef(null);
+  const isMobile = useIsMobile();
 
-  useEffect(() => {
-    if (!trackRef.current) return;
-    
-    const ctx = gsap.context(() => {
-      gsap.to(trackRef.current, {
-        xPercent: -50,
-        ease: "none",
-        duration: 30,
-        repeat: -1,
-      });
-    }, trackRef);
-    
-    return () => ctx.revert();
-  }, []);
+  if (isMobile) {
+    return null;
+  }
 
   return (
     <section className={styles.marqueeSection}>
       <div className={styles.trackWrapper}>
-        <div className={styles.track} ref={trackRef}>
+        <div className={styles.track}>
           <div className={styles.content}>
             <span>FRONTEND ENGINEERING</span>
             <span className={styles.star}>✦</span>

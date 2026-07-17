@@ -34,8 +34,15 @@
 }
 
 @keyframes scrollMarquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-50%, 0, 0); }
+}
+
+.marqueeTrack {
+  display: flex;
+  width: max-content;
+  animation: scrollMarquee 15s linear infinite;
+  will-change: transform;
 }
 
 .container {
@@ -165,11 +172,42 @@
   color: #fff;
 }
 
+/* Beautiful Static CTA for Mobile */
+.mobileStaticMarqueeWrapper {
+  width: 100%;
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 25px 0;
+  background: #000;
+  transform: rotate(-1.5deg) scale(1.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileStaticTrack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.mobileStaticTrack span {
+  font-size: 6.5vw; /* Scaled down slightly to guarantee no cutoff on any device */
+  font-weight: 700;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
+  text-align: center;
+  white-space: nowrap;
+}
+
 @media (max-width: 900px) {
   .container {
     grid-template-columns: 1fr;
     gap: 40px;
-    padding: 80px 20px;
+    padding: 40px 20px 80px 20px; /* Reduced top padding from 80px to 40px to remove big empty space */
   }
   .heading {
     text-align: left;

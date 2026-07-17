@@ -2,8 +2,11 @@
 import { motion } from "framer-motion";
 import styles from "./TechTerminal.module.css";
 import SectionTag from "./SectionTag";
+import { useIsMobile } from "@/hooks/useIsMobile";
 
 export default function TechTerminal() {
+  const isMobile = useIsMobile();
+
   return (
     <section className={styles.section}>
       <SectionTag text="Metrics" />
